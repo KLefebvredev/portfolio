@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+
+$font1 :"Josefin sans";
+$color1 :rgb(67, 67, 255);
+$color2 :rgb(196, 0, 0);
+$grey :rgb(109, 109, 109);
+$white :rgb(243, 243, 243);
+$black :rgb(20, 20, 20);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+	font-family: $font1;
+	background-color:$black;
+	text-align: center;
+}
+li{
+    list-style: none;
+}
+
