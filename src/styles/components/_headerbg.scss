@@ -1,0 +1,57 @@
+.home_bg,.techno_bg,.contact_bg,.projet_bg {
+	display: flex;
+	position: absolute;
+	top: 0%;
+	left: 50%;
+	transform: translate(-50%);
+	height: 50%;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0px 1px 2px 0px rgba(51, 51,51,0.5);
+}
+
+h1{
+	font-size: 5rem;
+	color: $white;
+	letter-spacing: 1px;
+}
+
+.home_bg {
+	background: url(../../assets/img/bg.jpg);
+}
+
+.techno_bg {
+	background: url(../../assets/img/techno.jpg);
+}
+
+.projet_bg {
+	background: url(../../assets/img/projets.jpg);
+}
+
+.contact_bg {
+	background: url(../../assets/img/contact.jpg)center/cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
