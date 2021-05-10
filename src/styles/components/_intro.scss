@@ -1,0 +1,35 @@
+.Intro {
+    img{
+        width: 300px;
+        border-radius: 50%;
+    }
+    h1{
+        padding:100px 0;
+    }
+}
+
+.intro1{
+    .picture2{
+        display: none;
+    }
+    display : flex;
+    padding: 50px;
+    color: whitesmoke;
+    .picture,.picture2,.picture3{
+        flex: 1;
+        padding: 0 40px;
+    }
+    .text{
+        text-align: start;
+        flex: 5;
+        margin-top : 50px;
+        padding: 0 20px 30px 50px;
+    }
+    h4{
+        font-size: 2rem;
+        padding-bottom: 50px;
+    }
+    p{
+        font-size: 1.2rem;
+    }
+}

@@ -1,10 +1,8 @@
 .home_bg,.techno_bg,.contact_bg,.projet_bg {
 	display: flex;
-	position: absolute;
 	top: 0%;
 	left: 50%;
-	transform: translate(-50%);
-	height: 50%;
+	height: 50vh;
 	width: 100%;
 	align-items: center;
 	justify-content: center;

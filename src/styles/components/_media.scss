@@ -1,0 +1,46 @@
+@media(max-width:1116px) {
+    .Intro{
+        .intro1{
+            padding: 15px;
+            display: block;
+            img{
+                padding: 0;
+            }
+            .picture3{
+                display: none;
+            }
+            .picture2{
+                display: initial;
+            }
+        }
+    }
+}
+
+@media(max-width:705px) {
+    .home_bg{
+        h1{
+            font-size: 3rem;
+        }
+    }
+
+
+    .Intro{
+        h1{
+            font-size: 3rem;
+        }
+        img{
+            width: 250px;
+            padding: 10px;
+        }
+    }
+    
+    .navigation{
+        ul{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        li{
+            padding: 10px;
+        }
+    }
+}
