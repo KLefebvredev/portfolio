@@ -4,6 +4,7 @@ import { Switch, Route, BrowserRouter } from "react-router-dom";
 import Contact from './pages/Contact';
 import Techno from './pages/Techno';
 import Projet from './pages/Projet';
+import NotFound from './pages/NotFound';
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/techno" component={Techno} />
         <Route path="/projet" component={Projet} />
         <Route path="/contact" component={Contact} />
+        <Route component={NotFound} />
       </Switch>
     </BrowserRouter>
   );
