@@ -1,0 +1,41 @@
+.projects-container{
+	margin-top: 1%;
+	justify-content: center;
+	
+
+	ul{
+	background-color: rgba(245, 245, 245, 0.253);
+	border-radius: 20px;
+	}
+	li{
+		color: white;
+		font-size: 1.5rem;
+		padding: 10px;
+	}
+	
+	li:active{
+		position: relative;
+		&:after{ 
+			content: "";
+			position: absolute;
+			width: 15%;
+			height: 20px;
+			background-color: rgba(255, 0, 0, 0.301);
+			left: 50%;
+			transform: translateX(-50%) scaleX(0);
+			animation: anim 1s forwards;
+
+			@keyframes anim {
+				100%{
+					transform: translateX(-50%) scaleX(1);
+				}
+			}
+	}}
+    
+}
+
+.proj{
+    h2{
+        color: white;
+    }
+}
